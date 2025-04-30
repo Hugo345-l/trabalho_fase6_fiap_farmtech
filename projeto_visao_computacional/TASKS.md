@@ -7,42 +7,37 @@ Este documento contém uma lista de verificação de todas as tarefas necessári
 - [x] Atualizar pip para a versão mais recente
 - [x] Instalar pacotes básicos (numpy, matplotlib, opencv-python)
 - [x] Instalar frameworks de deep learning (torch, torchvision, tensorflow)
-- [ ] Instalar bibliotecas auxiliares (scikit-learn, pandas, pillow)
-- [ ] Instalar Ultralytics YOLO
-- [ ] Verificar a extensão Jupyter no VS Code
-- [ ] Criar pasta dedicada para o projeto
-- [ ] Iniciar notebook .ipynb para o projeto
+- [x] Instalar bibliotecas auxiliares (scikit-learn, pandas, pillow)
+- [x] Instalar Ultralytics YOLO
+- [x] Verificar a extensão Jupyter no VS Code
+- [x] Criar pasta dedicada para o projeto
+- [x] Iniciar notebook .ipynb para o projeto
 
 ## Fase 1: Coleta e Preparação de Dados
 
-- [ ] Definir os dois objetos a serem detectados
-- [ ] Planejar a captura/coleta de imagens
-- [ ] Obter 40 imagens do objeto A
-- [ ] Obter 40 imagens do objeto B
-- [ ] Criar estrutura de pastas para o dataset
-- [ ] Separar imagens do objeto A (32 treino, 4 validação, 4 teste)
-- [ ] Separar imagens do objeto B (32 treino, 4 validação, 4 teste)
-- [ ] Renomear as imagens de forma padronizada
-- [ ] Redimensionar imagens se necessário
-- [ ] Verificar a qualidade das imagens
+- [x] Definir os dois objetos a serem detectados
+- [x] Planejar a captura/coleta de imagens
+- [x] Obter 40 imagens do objeto A
+- [x] Obter 40 imagens do objeto B
+- [x] Criar estrutura de pastas para o dataset
+- [x] Separar imagens do objeto A (32 treino, 4 validação, 4 teste)
+- [x] Separar imagens do objeto B (32 treino, 4 validação, 4 teste) 
+- [x] Reduzir dataset para 40 treino, 5 validação e 5 teste por classe (validado correspondência imagem/label)
+- [x] Redimensionar imagens se necessário
+- [x] Verificar a qualidade das imagens
 
 ## Fase 2: Anotação e Rotulagem
 
-- [ ] Organizar imagens para upload no Make Sense AI
-- [ ] Acessar o Make Sense AI
-- [ ] Selecionar opção "Object Detection"
-- [ ] Fazer upload das imagens de treino
-- [ ] Fazer upload das imagens de validação
-- [ ] Criar labels para os objetos A e B
-- [ ] Desenhar bounding boxes em imagens de treino
-- [ ] Desenhar bounding boxes em imagens de validação
-- [ ] Exportar anotações no formato YOLO
-- [ ] Criar diretórios para os labels
-- [ ] Organizar arquivos de label nas pastas correspondentes
+- [x] Criar labels para os objetos A e B
+- [x] Desenhar bounding boxes em imagens de treino
+- [x] Desenhar bounding boxes em imagens de validação
+- [x] Organizar arquivos de label nas pastas correspondentes
+- [x] Exportar anotações no formato YOLO
+- [x] Criar diretórios para os labels
 
 ## Fase 3: Treinamento e Validação
 
-- [ ] Criar arquivo de configuração data.yaml
+- [x] Criar arquivo de configuração data.yaml
 - [ ] Configurar caminhos para diretórios de treino e validação no yaml
 - [ ] Definir nomes das classes no arquivo yaml
 - [ ] Criar células no notebook para importar bibliotecas

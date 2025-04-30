@@ -1,0 +1,5 @@
+train: C:/Users/gugue/OneDrive/Área de Trabalho/Fiap/Fase 6/trabalho_fase6/trabalho_fase6_fiap_farmtech/projeto_visao_computacional/dataset/train/images
+val: C:/Users/gugue/OneDrive/Área de Trabalho/Fiap/Fase 6/trabalho_fase6/trabalho_fase6_fiap_farmtech/projeto_visao_computacional/dataset/val/images
+test: C:/Users/gugue/OneDrive/Área de Trabalho/Fiap/Fase 6/trabalho_fase6/trabalho_fase6_fiap_farmtech/projeto_visao_computacional/dataset/test/images
+nc: 2
+names: ["copo", "headphones"]

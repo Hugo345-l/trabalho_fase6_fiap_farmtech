@@ -1,14 +1,62 @@
 # Plano Detalhado para Trabalho de Visão Computacional - Fase 6
 
-## Resumo do Trabalho
+# Plano Detalhado para Trabalho de Visão Computacional - Fase 6
 
-Este projeto consiste no desenvolvimento de um sistema de visão computacional utilizando diferentes abordagens de redes neurais para a classificação de imagens. A proposta é para a FarmTech Solutions, uma empresa que está expandindo seus serviços de IA para áreas como saúde animal, segurança patrimonial e análise visual.
+## Contexto e Objetivos do Trabalho
 
-**Objetivo Principal:** Criar um sistema de visão computacional usando o modelo YOLO que demonstre seu potencial e acurácia na detecção e classificação de objetos.
 
-**Entregas Exigidas:**
-1. **Entrega 1:** Desenvolvimento de um modelo YOLO customizado
-2. **Entrega 2:** Comparação de performance com YOLO tradicional e CNN treinada do zero
+### Objetivo Principal
+Desenvolver um sistema de visão computacional utilizando o modelo YOLO (You Only Look Once) que demonstre de forma clara e convincente seu potencial e acurácia na detecção e classificação de objetos escolhidos pelo aluno/grupo.
+
+### Objetivos Específicos
+1. Criar, treinar e validar um modelo YOLO customizado para detectar dois tipos de objetos distintos
+2. Comparar a performance entre diferentes configurações do modelo (variando épocas de treinamento)
+3. Contrastar o modelo YOLO customizado com outras abordagens (YOLO tradicional e CNN treinada do zero)
+4. Documentar todo o processo de forma organizada e profissional
+5. Demonstrar os resultados obtidos de forma visual e quantitativa
+
+## Entregáveis Detalhados
+
+### Entrega 1: Sistema de Visão Computacional com YOLO Customizado
+
+#### Dataset e Preparação de Dados
+- **Dataset Completo:** Organização de banco de imagens contendo no mínimo 40 imagens do objeto A e 40 imagens do objeto B (total mínimo de 80 imagens)
+- **Distribuição Adequada:** Para cada objeto, 32 imagens para treinamento, 4 para validação e 4 para testes
+- **Organização Estruturada:** Imagens devidamente organizadas em pastas específicas (train, val, test)
+- **Rotulação Profissional:** Utilização do Make Sense AI para criar as caixas delimitadoras (bounding boxes) de todos os objetos nas imagens
+
+#### Treinamento e Validação
+- **Experimentação Controlada:** Realização de pelo menos dois treinamentos com diferentes números de épocas (recomendado 30 e 60 épocas)
+- **Análise Comparativa:** Documentação detalhada das diferenças em acurácia, erro e desempenho entre os modelos treinados com diferentes parâmetros
+- **Validação Robusta:** Avaliação completa do modelo utilizando métricas como mAP (mean Average Precision), recall e precision
+
+#### Documentação Técnica
+- **Notebook Jupyter/Colab:** Código Python completo, organizado, comentado e totalmente funcional
+- **Relatório Analítico:** Células markdown explicando cada etapa do processo e discorrendo sobre resultados obtidos
+- **Evidências Visuais:** Prints de imagens de teste processadas pelo modelo, demonstrando sua eficácia
+- **Conclusões Fundamentadas:** Análise crítica dos pontos fortes e limitações do modelo
+
+#### Repositório e Apresentação
+- **Repositório GitHub:** Criação de repositório contendo todos os arquivos do projeto, incluindo notebook Jupyter
+- **README Detalhado:** Documentação introdutória conduzindo o leitor para o notebook Jupyter
+- **Vídeo Demonstrativo:** Gravação de vídeo de até 5 minutos demonstrando o funcionamento do sistema
+
+### Entrega 2: Análise Comparativa de Abordagens
+
+#### Implementação de Diferentes Abordagens
+- **YOLO Tradicional:** Aplicação do modelo YOLO pré-treinado (sem customização) no mesmo conjunto de dados
+- **CNN do Zero:** Desenvolvimento de uma rede neural convolucional treinada do zero para o mesmo problema
+
+#### Análise Técnica Comparativa
+- **Facilidade de Uso:** Avaliação da complexidade de implementação e integração de cada abordagem
+- **Precisão dos Modelos:** Comparação detalhada das métricas de desempenho (acurácia, precisão, recall)
+- **Eficiência de Treinamento:** Análise do tempo necessário para treinamento e customização de cada modelo
+- **Performance de Inferência:** Medição do tempo de predição (inferência) para cada abordagem
+
+#### Documentação e Entregáveis
+- **Notebook Complementar:** Implementação documentada das abordagens alternativas
+- **Visualizações Comparativas:** Gráficos e tabelas comparando o desempenho das diferentes soluções
+- **Análise Crítica:** Avaliação das vantagens e desvantagens de cada método em cenários práticos
 
 ## Plano de Execução - Passo a Passo
 
