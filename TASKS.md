@@ -85,7 +85,7 @@ Este documento contém uma lista de verificação de todas as tarefas necessári
 - [ ] Documentar conclusões dos experimentos
 - [ ] Criar repositório no GitHub
 - [ ] Fazer upload do notebook e arquivos relevantes
-- [ ] Escrever README.md detalhado
+- [x] Escrever README.md detalhado
 - [ ] Preparar roteiro para o vídeo demonstrativo
 - [ ] Gravar vídeo de 5 minutos
 - [ ] Fazer upload do vídeo no YouTube como "não listado"
